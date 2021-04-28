@@ -1,0 +1,8 @@
+.data
+numero: .word 5,1
+
+.text
+lw $s1,numero
+li $t1,0
+add $t1,$t1,1
+sw $t1,numero
